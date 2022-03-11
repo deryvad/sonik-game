@@ -42,7 +42,7 @@
 </script>
 
 <svelte:window on:keydown={handleKeydown} />
-<img class="{gojump ? 'jumping':''}" src="/static/runner.gif" alt="runner" bind:this={character}/>
+<img class="{gojump ? 'jumping':''}" src="runner.gif" alt="runner" bind:this={character}/>
 
 <style>    
 	img {

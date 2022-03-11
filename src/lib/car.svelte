@@ -19,7 +19,7 @@
     }, 100); 
 </script>
 
-<img src="/static/car.gif" alt="car" bind:this={car}>
+<img src="car.gif" alt="car" bind:this={car}>
 
 <style>
     @keyframes drive {

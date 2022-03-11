@@ -82,14 +82,14 @@
 <svelte:window on:keydown={gamestart} />
 <div class="main go-{gameover}">	
     <div class="audioplayers">
-        <AudioPlayer src="/static/bg.mp3" bind:player={bgAudio}/>
-        <AudioPlayer src="/static/coin.wav" bind:player={coinAudio}/>
-        <AudioPlayer src="/static/crash.wav" bind:player={gameOverAudio}/>
+        <AudioPlayer src="bg.mp3" bind:player={bgAudio}/>
+        <AudioPlayer src="coin.wav" bind:player={coinAudio}/>
+        <AudioPlayer src="crash.wav" bind:player={gameOverAudio}/>
     </div>	
     <div class="head">
         Character Position: {charPosX.toFixed()} px, {charPosY.toFixed()} px
         <br>
-        <img class="coin" src="/static/coin.gif" alt="score"> <span class="score">{coincount}</span>
+        <img class="coin" src="coin.gif" alt="score"> <span class="score">{coincount}</span>
     </div>
 
     {#if playing}

@@ -27,7 +27,7 @@
     }, 100); 
 </script>
 
-<img src="/static/coin.gif"  alt="coin" bind:this={coin}>
+<img src="coin.gif"  alt="coin" bind:this={coin}>
 
 <style>
     @keyframes move {
