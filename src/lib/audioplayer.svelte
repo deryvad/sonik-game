@@ -4,7 +4,7 @@
     export let src;
     let audio;
     onMount(() => {
-      player.volume= 0.3;
+      player.volume= 0.1;
     }) 
 </script>
 
