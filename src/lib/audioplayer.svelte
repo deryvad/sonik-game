@@ -1,4 +1,5 @@
 <script>
+    import { onMount } from 'svelte';
     export let player;
     export let src;
     let audio;
