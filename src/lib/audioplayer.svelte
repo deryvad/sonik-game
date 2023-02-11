@@ -1,6 +1,10 @@
 <script>
     export let player;
     export let src;
+    let audio;
+    onMount(() => {
+      player.volume= 0.3;
+    }) 
 </script>
 
 <audio
